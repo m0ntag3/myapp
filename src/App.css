@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #1f1f27;
+  min-height: 1vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Firstcomponent{
+  background-color: rgb(228, 143, 14);
+}
+
+.Secondcomponent{
+  background-color: rgb(157, 209, 222);
+}
+
+.Contactuscomponent{
+  background-color: dimgray;
+}
+
+.Helpcomponent{
+  background-color: indianred;
 }
