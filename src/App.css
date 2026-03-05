@@ -46,8 +46,21 @@
 
 .Contactuscomponent{
   background-color: dimgray;
+  text-transform: uppercase;
 }
 
 .Helpcomponent{
   background-color: rgb(121, 38, 38);
+  justify-self: baseline;
+}
+
+.Thirdcomponent{
+  background-color: darkslategrey;
+  color: khaki;
+  
+}
+
+.Fourthcomponent{
+  background-color: rgb(171, 74, 93);
+  text-decoration-line: underline;
 }

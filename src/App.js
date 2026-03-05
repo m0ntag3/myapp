@@ -1,8 +1,11 @@
 import './App.css';
 import Contactuscomponent from './assignment1/Contactuscomponent';
 import Helpcomponent from './assignment1/Helpcomponent';
-import Firstcomponent from './componenets/Firstcomponent';
-import Secondcomponent from './componenets/Secondcomponent';
+import Fifthcomponent from './components/Fifthcomponent';
+import Firstcomponent from './components/Firstcomponent';
+import Fourthcomponent from './components/Fourthcomponent';
+import Secondcomponent from './components/Secondcomponent';
+import Thirdcomponent from './components/Thirdcomponent';
 
 function App() {
   return (
@@ -17,9 +20,13 @@ function App() {
       <Secondcomponent/>
       <Contactuscomponent/>
       <Helpcomponent/>
+      <Thirdcomponent/>
+      <Fourthcomponent/>
+      <Fifthcomponent/>
     </div>
   );
 }
 
 export default App;
-// The above block of code is jsx.JavaScript HTML code (Involves HTNL,CSS and Javascript all at once)
+// The above block of code is jsx.JavaScript HTML code (Involves HTML,CSS and Javascript all at once)
+// This is the root/main component
