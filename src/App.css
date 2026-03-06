@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #1f1f27;
-  min-height: 1vh;
+  background-color: #464652;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,36 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
 .Firstcomponent{
   background-color: rgb(228, 143, 14);
 }
-
 .Secondcomponent{
   background-color: rgb(157, 209, 222);
 }
-
 .Contactuscomponent{
   background-color: dimgray;
   text-transform: uppercase;
 }
-
 .Helpcomponent{
   background-color: rgb(121, 38, 38);
   justify-self: baseline;
 }
-
 .Thirdcomponent{
   background-color: darkslategrey;
   color: khaki;
-  
 }
-
 .Fourthcomponent{
   background-color: rgb(171, 74, 93);
   text-decoration-line: underline;
 }
-
 .Sixthcomponent{
   background-color: grey;
   color: midnightblue;
+}
+.Notfound{
+  font-size: 45px;
+  color: crimson;
+  font-weight: bolder;
+}
+
+nav{
+  background-color: cyan;
+  padding: 10px;
+}
+.navlinks{
+  margin: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: darkcyan;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.navlinks:hover{
+  background-color: rgb(5, 60, 92);
+  color: white;
 }

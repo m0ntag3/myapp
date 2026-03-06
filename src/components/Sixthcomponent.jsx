@@ -8,7 +8,7 @@ const Sixthcomponent = () => {
             <h1>This is the sixth component</h1>
             <h2>The initial weight is: {weight}Kgs</h2>
 
-            <button onClick={()=>setWeight(55)}>Click to update the weight</button>
+            <button onClick={()=> setWeight(55)}>Click to update the weight</button>
         </div>
     )
 }
